@@ -1,0 +1,33 @@
+body {
+    background-color: #7fffd4;
+}
+
+.pokemon-container {
+    width: 500px;
+    height: 500px;
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-container .pokemon {
+    margin-right: -30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.pokemon-container .pokemon .nombre {
+    text-align: center;
+    display: none;
+}
+
+.pokemon-container .pokemon:hover .nombre {
+    display: block;
+}
+
+.pokemon-container .pokemon img {
+    width: 150px;
+    height: 150px;
+}
